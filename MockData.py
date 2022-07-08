@@ -9,8 +9,8 @@ import get_fhir
 class Gold(object):
    #print("Line 7")
     def __init__(self):
-        #self.url = "http://hapi.fhir.org/baseR4/metadata"
-        self.url = "http://localhost:8080/fhir/metadata"
+        self.url = "http://hapi.fhir.org/baseR4/metadata"
+        #self.url = "http://localhost:8080/fhir/metadata"
         print(self.url)
         self.headers = {
             'Server': 'nginx/1.18.0 (Ubuntu)',
